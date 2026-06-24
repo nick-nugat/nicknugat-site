@@ -1,5 +1,6 @@
 body{
     font-family: Karla, sans-serif;
+    font-size: 20px;
     /* background-color: rgb(231, 198, 198); */
     background-image: url('/images/peach-background.jpg');
     background-color: rgba(0, 0, 0, 0.5);
@@ -7,6 +8,29 @@ body{
 }
 p{
     margin: 0;
+}
+
+.heading{ 
+    display: inline-block;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Gaegu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 5px;
+    border: 3px dashed rgb(237, 188, 54);
+
+    border-radius: 4px;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+}
+.heading-container{
+    text-align: center;
+}
+
+.divider{ 
+    text-align: center; 
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .to-do{
@@ -19,6 +43,7 @@ p{
     width: 12%;
     overflow-wrap: break-word;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 @media (max-width: 900px){
@@ -28,12 +53,6 @@ p{
         margin-left: 25%;
     }
 
-}
-
-.divider{ 
-    text-align: center; 
-    font-weight: 700;
-    margin: 10px 0;
 }
 
 a{
