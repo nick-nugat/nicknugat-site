@@ -1,7 +1,8 @@
 body{
     font-family: "Gaegu", sans-serif;
     /* background-color: rgb(231, 198, 198); */
-    background-image: url('/images/peach-background.jpg')
+    background-image: url('/images/peach-background.jpg');
+    margin: 0;
 }
 p{
     margin: 0;

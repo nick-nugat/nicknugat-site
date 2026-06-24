@@ -10,17 +10,21 @@
     border-radius: 4px;
     padding: 30px 20px;
 }
-
 .general-info-container{
     text-align: center;
 }
 
 .info-grid{
-    display: flex;
+    display: grid;
     justify-content: center;
+    grid-template-columns: 400px 400px;
     gap: 20px;
-    flex-wrap: wrap;
-    flex: 1fr 1fr;
+}
+
+@media (max-width: 900px){
+    .info-grid{
+        grid-template-columns: 400px;
+    }
 }
 
 .highlight{
@@ -31,19 +35,14 @@
 .animanga-section,
 .bl-section,
 .socials-section{
+    width: 100%;
     font-size: 24px;
     display: inline-block;
     vertical-align: top;
     border-radius: 7px;
 }
 
-.animanga-section{
-    width: 400px;
-}
 
-.bl-section{
-    width: 350px;
-}
 
 
 .animanga-section{
@@ -52,7 +51,7 @@
 }
 
 .guangshi-delulu{
-    width: 240px;
+    width: 50%;
 
 }
 .bl-section{
@@ -85,10 +84,4 @@
 .inside-sections{
     font-size: 20px;
     margin-bottom: 15px;
-}
-
-
-.sidebar{
-    margin-right: 300px;
-
 }
