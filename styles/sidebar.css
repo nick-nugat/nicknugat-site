@@ -1,6 +1,16 @@
-/* .sidebar{
-    background-color: orange;
-    justify-content: left;
-    width: 20%;
-    padding: 20px;
-} */
+.sidebar{
+    position: absolute;
+    background: rgba(236, 133, 49, 0.7);
+    left: 5px;
+    top: 0;
+}
+
+.sidebar{
+    top: 115px;
+}
+
+.sidebar-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}

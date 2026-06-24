@@ -1,19 +1,38 @@
 body{
-    font-family: "Gaegu", sans-serif;
+    font-family: Karla, sans-serif;
     /* background-color: rgb(231, 198, 198); */
     background-image: url('/images/peach-background.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
 }
 p{
     margin: 0;
 }
 
+.to-do{
+    font-family: 'Space Mono';
+    position: absolute;
+    bottom: 4px;
+    padding-right: 15px;
+    display: inline-block;
+    background-color: rgba(216, 90, 216, 0.8);
+    width: 12%;
+    overflow-wrap: break-word;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px){
+    .to-do{
+        position: relative;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+}
+
 .divider{ 
     text-align: center; 
     font-weight: 700;
-}
-
-.divider{
     margin: 10px 0;
 }
 

@@ -1,4 +1,4 @@
-.general-info{ 
+.heading{ 
     display: inline-block;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: "Gaegu", sans-serif;
@@ -10,7 +10,7 @@
     border-radius: 4px;
     padding: 30px 20px;
 }
-.general-info-container{
+.heading-container{
     text-align: center;
 }
 
@@ -28,13 +28,14 @@
 }
 
 .highlight{
-    font-weight: 900; /* maybe not working with this font */
-    color: rgb(87, 106, 2);
+    font-weight: 700; /* maybe not working with this font */
+    color: rgb(6, 158, 143);
 }
 
 .animanga-section,
 .bl-section,
-.socials-section{
+.socials-section,
+.general-bio{
     width: 100%;
     font-size: 24px;
     display: inline-block;
@@ -42,7 +43,10 @@
     border-radius: 7px;
 }
 
-
+.general-bio{
+    background-color: rgba(156, 218, 238, 0.7);
+    grid-column: 1 / 3; /* take up both columns */
+}
 
 
 .animanga-section{
