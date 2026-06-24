@@ -27,6 +27,12 @@ p{
     text-align: center;
 }
 
+@media (max-width: 900px){
+    .heading{
+        margin-top: 150px;
+    }
+}
+
 .divider{ 
     text-align: center; 
     font-weight: 700;
