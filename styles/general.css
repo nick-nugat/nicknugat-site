@@ -1,0 +1,38 @@
+body{
+    font-family: "Gaegu", sans-serif;
+    /* background-color: rgb(231, 198, 198); */
+    background-image: url('/images/peach-background.jpg')
+}
+p{
+    margin: 0;
+}
+
+.divider{ 
+    text-align: center; 
+    font-weight: 700;
+}
+
+.divider{
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:link{
+    color: rgb(5, 98, 22);
+}
+
+a:visited{
+    color: rgb(5, 98, 22);
+}
+
+a:hover{
+    color: rgb(11, 96, 133);
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+}
