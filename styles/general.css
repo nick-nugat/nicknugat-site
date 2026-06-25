@@ -1,3 +1,9 @@
+/* TEMPORARY */
+h2.coming-soon{
+    text-align: center;
+}
+
+
 body{
     font-family: Karla, sans-serif;
     font-size: 20px;
@@ -32,6 +38,7 @@ ul.star-list ul li::marker{
 li.break-before{
     break-before: column;
 }
+
 
 .heading{ 
     display: inline-block;
@@ -105,4 +112,9 @@ a:hover{
 
 a:active{
     color: green;
+}
+
+.related-pages{
+    margin: 15px;
+    text-align: center;
 }

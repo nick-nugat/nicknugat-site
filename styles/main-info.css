@@ -5,7 +5,7 @@
     animation-duration: 1s;
 } */
 
-/* .main-page-layout-wrapper{
+/* .single-col-grid-wrapper{
     display: grid;
     grid-template-columns: 1fr 400px;
 } */
@@ -16,8 +16,7 @@
     gap: 20px;
 } */
 
-.main-page-layout,
-.interests-page-layout{
+.single-col-grid{
     display: grid;
     justify-content: center;
     grid-template-columns: 400px;
@@ -26,18 +25,14 @@
 
 
 @media (max-width: 900px){
-    .main-page-layout{
-        grid-template-columns: 1fr 1fr;
-        margin: 50px;
-    }
-    .interests-page-layout{
+    .single-col-grid{
         grid-template-columns: 1fr;
-        justify-content: center;
+        margin: 0 50px;
     }
-    .animanga-section,
+    /* .animanga-section,
     .bl-section{
         grid-column: 1 / 2;
-    }
+    } */
 }
 
 .section-heading{
@@ -54,12 +49,13 @@
 }
 
 
+.animanga-desc,
 .animanga-section,
 .bl-section,
 .links-section,
 .general-bio-section,
 .sites-i-like-section,
-.interests-desc{
+.interests{
     width: 100%;
     font-size: 24px;
     display: inline-block;
@@ -69,8 +65,7 @@
     background-color: rgb(39, 39, 39);
 }
 
-.general-bio-section,
-.links-section{
+.general-bio-section{
     /* background-color: rgba(156, 218, 238, 0.7); */
     /* background-color: rgba(115, 139, 175, 0.54); */
     padding: 15px 0 0 15px;
@@ -98,33 +93,32 @@
 }
 
 
-.interests-desc{
-    background-color: rgb(107, 105, 105);
 
-}
-
-.interests-desc ul{
+.interests ul{
     column-count: 2;
 }
+
+
+.animanga-desc,
 .animanga-section{
-    background-color: rgba(248, 129, 69, 0.7);
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.animanga-section ul{
+
+.animanga-section ul,
+.bl-section ul{
     column-count: 2;
 }
 
-.guangshi-delulu{
+
+.guangshi-delulu,
+.hirakagi-gif{
     width: 50%;
     display: block;
     margin: 0 auto;
     margin-bottom: 5px;
 }
-.bl-section{
-    background-color: rgba(226, 150, 63, 0.7);
-    text-align: center;
-}
 
 .hirakagi-gif{
     width: 60%;
-    margin-bottom: 5%;
 }
