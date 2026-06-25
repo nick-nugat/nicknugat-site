@@ -2,12 +2,35 @@ body{
     font-family: Karla, sans-serif;
     font-size: 20px;
     
-    background-color: rgba(220, 140, 234, 0.259);
-    background-image: url('/images/peach-background.jpg');
+    color: rgb(203, 198, 198);
+    background-color: rgb(65, 66, 67);
+    /* background-color: rgb(220, 200, 223); */
+
+    /* background-image: url('/images/peach-background.jpg'); */
     margin: 0;
+
 }
 p{
     margin: 0;
+}
+
+ul.star-list li::marker{
+    content: "\2605   "; /* filled star */
+    font-size: 10px;
+}
+
+ul.star-list ul{
+    padding-left: 16px;
+    column-count: 1;
+}
+
+ul.star-list ul li::marker{
+    content: "\2606   "; /* empty star */
+    font-size: 9px;
+}
+
+li.break-before{
+    break-before: column;
 }
 
 .heading{ 
@@ -27,6 +50,11 @@ p{
     text-align: center;
 }
 
+.highlight{
+    font-weight: 700; /* maybe not working with this font */
+    color: rgb(230, 149, 227);
+    font-style: italic;
+}
 
 .divider{ 
     text-align: center; 
@@ -43,10 +71,11 @@ p{
     background-color: rgba(216, 90, 216, 0.8);
     width: 30%;
     overflow-wrap: break-word;
-    border-radius: 8px;
+    border-radius: 2px;
     font-size: 16px;
     max-height: 40%;
 }
+
 
 @media (max-width: 900px){
     .to-do{
@@ -62,11 +91,11 @@ a{
     transition: color 0.5s;
 }
 a:link{
-    color: rgb(5, 98, 22);
+    color: rgb(224, 92, 224);
 }
 
 a:visited{
-    color: rgb(5, 98, 22);
+    color: rgb(224, 92, 224);
 }
 
 a:hover{

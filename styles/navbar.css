@@ -15,7 +15,7 @@
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: rgb(212, 212, 224);
+    background-color: rgb(126, 126, 127);
 }
 
 .navbar li{
@@ -25,17 +25,23 @@
     display: block;
     text-align: center;
     padding: 15px;
+    color: white;
+    transition: background-color 0.3s;
 }
+
+.navbar a:hover{
+    background-color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+
+
+.navbar a:active{
+    background-color: rgb(111, 110, 110);
+    text-decoration: none;
+}
+
 /* .navbar-heading{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
-} */
-
-/* @media (max-width: 900px){
-    .navbar{
-        position: absolute;
-        width: 90%;
-        top: 0;
-    }
 } */
