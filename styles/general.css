@@ -1,9 +1,9 @@
 body{
     font-family: Karla, sans-serif;
     font-size: 20px;
-    /* background-color: rgb(231, 198, 198); */
+    
+    background-color: rgba(220, 140, 234, 0.259);
     background-image: url('/images/peach-background.jpg');
-    background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
 }
 p{
@@ -27,11 +27,6 @@ p{
     text-align: center;
 }
 
-@media (max-width: 900px){
-    .heading{
-        margin-top: 150px;
-    }
-}
 
 .divider{ 
     text-align: center; 
@@ -46,10 +41,11 @@ p{
     padding-right: 15px;
     display: inline-block;
     background-color: rgba(216, 90, 216, 0.8);
-    width: 12%;
+    width: 30%;
     overflow-wrap: break-word;
     border-radius: 8px;
     font-size: 16px;
+    max-height: 40%;
 }
 
 @media (max-width: 900px){

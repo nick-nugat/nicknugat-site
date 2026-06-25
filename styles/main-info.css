@@ -1,14 +1,27 @@
-.main-page-layout-wrapper{
+/* @view-transition{
+    navigation: auto;
+}
+::view-transition-group(root){
+    animation-duration: 1s;
+} */
+
+/* .main-page-layout-wrapper{
     display: grid;
     grid-template-columns: 1fr 400px;
-}
+} */
 
+/* .full-page-layout{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+} */
 .main-page-layout{
     display: grid;
     justify-content: center;
     grid-template-columns: 400px;
     gap: 20px;
 }
+
 .info-grid{
     display: grid;
     justify-content: center;
