@@ -73,9 +73,7 @@
 .links-section ul{
     margin-top: 0;
 }
-.links-section li::marker{
-    font-size: 10px;
-}
+
 
 .sites-i-like-section{
     /* background-color: rgba(255, 192, 203, 0.7); */
