@@ -1,3 +1,11 @@
+/* makes everything fit inside a set width */
+*,
+*::before,
+*::after {
+    /* default val is content-box */
+    box-sizing: border-box;
+}
+
 /* TEMPORARY */
 h2.coming-soon{
     text-align: center;

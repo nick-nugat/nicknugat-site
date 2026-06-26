@@ -19,17 +19,19 @@
 .single-col-grid{
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px;
+    grid-template-columns: 600px;
     gap: 20px;
 }
 
+.interests-page .single-col-grid{
+    grid-template-columns: 600px;
+}
 
-@media (max-width: 900px){
-    .single-col-grid{
-        grid-template-columns: 1fr;
-        margin: 0 50px;
+@media (max-width: 630px){
+    .single-col-grid,
+    .interests-page .single-col-grid{
+        grid-template-columns: 0.9fr;
     }
-    
 }
 
 .section-heading{
@@ -90,11 +92,19 @@
 }
 
 
-
+.interests{
+    padding: 0 20px 20px 20px;
+}
 .interests ul{
     column-count: 2;
+    column-gap: 0;
 }
 
+@media (max-width: 630px){
+    .interests ul{
+        column-count: 1;
+    }
+}
 
 .animanga-desc,
 .animanga-section{
