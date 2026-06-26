@@ -29,10 +29,7 @@
         grid-template-columns: 1fr;
         margin: 0 50px;
     }
-    /* .animanga-section,
-    .bl-section{
-        grid-column: 1 / 2;
-    } */
+    
 }
 
 .section-heading{
@@ -81,8 +78,8 @@
 .sites-i-like-section{
     /* background-color: rgba(255, 192, 203, 0.7); */
     /* background-color: rgb(142, 140, 140); */
-    padding: 0 4px 4px 4px;
     position: absolute;
+    padding: 0 4px 4px 4px;
     bottom: 0;
     right: 3px;
     width: 20%;

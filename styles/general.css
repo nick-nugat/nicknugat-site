@@ -81,13 +81,14 @@ li.break-before{
     border-radius: 2px;
     font-size: 16px;
     max-height: 40%;
+    cursor: pointer;
 }
 
 
 @media (max-width: 900px){
     .to-do{
         position: relative;
-        width: 50%;
+        width: 45%;
         margin-left: 25%;
     }
 
