@@ -98,8 +98,15 @@
     column-gap: 0;
 }
 
+.animanga-section ul,
+.bl-section ul{
+    column-count: 2;
+}
+
 @media (max-width: 630px){
-    .interests ul{
+    .interests ul,
+    .animanga-section ul,
+    .bl-section ul{
         column-count: 1;
     }
 }
@@ -109,12 +116,6 @@
     padding-right: 10px;
     padding-left: 10px;
 }
-
-.animanga-section ul,
-.bl-section ul{
-    column-count: 2;
-}
-
 
 .guangshi-delulu,
 .hirakagi-gif{
