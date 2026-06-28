@@ -49,8 +49,8 @@
 
 
 .animanga-desc,
-.animanga-section,
-.bl-section,
+.animanga-favs,
+.bl-favs,
 .links-section,
 .general-bio-section,
 .sites-i-like-section,
@@ -98,22 +98,22 @@
     column-gap: 0;
 }
 
-.animanga-section ul,
-.bl-section ul{
+.animanga-favs ul,
+.bl-favs ul{
     column-count: 2;
 }
 
 @media (max-width: 630px){
     .interests ul,
-    .animanga-section ul,
-    .bl-section ul{
+    .animanga-favs ul,
+    .bl-favs ul{
         column-count: 1;
     }
 }
 
 .animanga-desc,
-.animanga-section,
-.bl-section{
+.animanga-favs,
+.bl-favs{
     padding-right: 10px;
     padding-left: 10px;
 }
